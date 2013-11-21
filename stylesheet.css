@@ -1,0 +1,178 @@
+/* Beginning of the new stylesheet */
+/* header settings */
+
+header {
+
+
+
+}
+
+header div {
+
+float: left;
+margin: 0px 0;
+width: 100%;
+background-color: rgba(255,255,255,0.3)
+
+
+}
+
+header h1 {
+
+font-family: 'Meddon', cursive;
+font-size: 90px;
+text-align: center;
+color: white;
+text-shadow: 2.0px 2.5px black;
+margin-top: 0%;
+margin-bottom:-6%;
+
+}
+
+header h2 {
+
+font-size: 40px;
+font-family: 'Molengo', sans-serif;
+text-align: center;
+color: white;
+text-shadow: 2.0px 2.5px black;
+margin-bottom:0;
+
+}
+
+header ul {
+
+font-size: 20px;
+font-family: 'Molengo', sans-serif;
+padding: 5px;
+/* background: rgba(255,255,255,0.8);*/
+border: 3px rgba(255,255,255,1);
+text-align: center;
+color: white;
+text-shadow: 1.0px 2.0px black;
+
+
+  }
+
+header  li {
+      display: inline;
+      padding: 10px 15px 15px 10px;
+      background-color: black;
+      border-radius: 13px;
+     
+
+      
+
+  }
+
+header ul a:link {
+
+color:inherit;
+
+}
+
+/* body general settings */
+
+body {
+
+background-image: url(bg01.jpg);
+background-size: cover;
+position: relative;
+display: block;
+height: auto !important;
+height: 100%;
+min-height: 100%;
+
+}
+.products {
+overflow: hidden;
+margin: 0 -9px 32px 0;
+width: 710px;
+}
+.products li {
+display: inline-block;
+margin: 0 -1px 3px 0;
+vertical-align: top;
+}
+.content {
+
+background-color: rgba(255,255,255,0.3);
+padding: 0 0 0 4px;
+position: relative;
+vertical-align: baseline;
+padding-top: 28px;
+width:702px;
+color: white;
+text-shadow: 2.0px 2.5px black;
+
+}
+
+
+/* footer general settings */
+
+footer {
+
+
+
+}
+
+footer div {
+
+
+font-size: 20px;
+font-family: 'Molengo', sans-serif;
+text-align: center;
+padding: 5px;
+/* background: rgba(255,255,255,0.8);*/
+border: 3px rgba(255,255,255,1);
+color: white;
+text-shadow: 1.0px 2.0px black;
+background-color: rgba(255,255,255,0.3)
+
+}
+
+footer div div ul {
+
+float: right;
+position: block;
+
+}
+
+.inst {
+
+display:inline-block;
+width:23px;
+height:22px;
+background:url("inst.png") 1% 1% no-repeat;
+
+}
+.fb {
+
+display:inline-block;
+width:23px;
+height:22px;
+background:url("fb.png") 1% 50% no-repeat;
+
+}
+.pint {
+
+display:inline-block;
+width:23px;
+height:22px;
+background:url("pint.png") 1% 1% no-repeat;
+
+}
+
+footer div div ul a {
+
+
+
+}
+
+footer div div li {
+
+ display: inline;
+
+
+}
+
