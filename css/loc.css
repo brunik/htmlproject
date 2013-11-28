@@ -1,0 +1,316 @@
+/* Beginning of the new stylesheet */
+/* header settings */
+
+header {
+
+
+
+}
+
+header div {
+
+/*float: left;*/
+/*margin: 0px 0;*/
+width: 100%;
+/*background-color: rgba(255,255,255,0.3)*/
+
+
+}
+
+header h1 {
+
+font-family: 'Meddon', cursive;
+font-size: 90px;
+text-align: center;
+color: white;
+text-shadow: 6.0px 6.5px black;
+margin-top: 0%;
+margin-bottom:-6%;
+
+}
+
+header h2 {
+
+font-size: 40px;
+font-family: 'Molengo', sans-serif;
+text-align: center;
+color: white;
+text-shadow: 3.0px 3.5px black;
+margin-bottom:0;
+
+}
+
+header ul {
+
+width: 100%;
+font-size: 20px;
+font-family: 'Molengo', sans-serif;
+padding: 7.5px;
+background: rgba(255,255,255,0.25);
+border: 3px rgba(255,255,255,1);
+text-align: center;
+color: white;
+/*text-shadow: 1.0px 2.0px black;*/
+
+  }
+
+header  li {
+      display: inline;
+      padding: 10px 15px 15px 10px;
+      /*background-color: black;
+      border-radius: 13px;*/
+     
+
+      
+
+  }
+
+header ul a:link {
+
+color:inherit;
+
+}
+
+/* body general settings */
+
+body {
+
+background-image: url(../img/bg01.jpg);
+background-size: cover;
+position: relative;
+display: block;
+height: auto !important;
+height: 100%;
+min-height: 100%;
+
+}
+.products {
+overflow: hidden;
+margin: 0 -9px 32px 0;
+width: 710px;
+}
+.products li {
+display: inline-block;
+margin: 0 -1px 3px 0;
+vertical-align: top;
+}
+.content {
+
+background-color: rgba(0,0,0,0.3);
+padding: 0 0 0 4px;
+position: relative;
+vertical-align: baseline;
+padding-top: 28px;
+width:702px;
+color: white;
+text-shadow: 2.0px 2.5px black;
+
+}
+
+
+/* footer general settings */
+
+footer {
+
+
+
+}
+
+footer div {
+
+
+font-size: 20px;
+font-family: 'Molengo', sans-serif;
+text-align: center;
+padding: 5px;
+/* background: rgba(255,255,255,0.8);*/
+border: 3px rgba(255,255,255,1);
+color: white;
+/*text-shadow: 1.0px 2.0px black;*/
+background-color: rgba(0,0,0,0.45)
+
+}
+
+footer div div ul {
+
+float: right;
+position: block;
+
+}
+
+.inst {
+
+display:inline-block;
+width:23px;
+height:22px;
+background:url("../img/inst.png") 1% 1% no-repeat;
+
+}
+.fb {
+
+display:inline-block;
+width:23px;
+height:22px;
+background:url("../img/fb.png") 1% 50% no-repeat;
+
+}
+.pint {
+
+display:inline-block;
+width:23px;
+height:22px;
+background:url("../img/pint.png") 1% 1% no-repeat;
+
+}
+
+footer div div ul a {
+
+
+
+}
+
+footer div div li {
+
+ display: inline;
+
+
+}
+
+
+
+/* STYLE PAGE: LOCATION */
+
+#map_canvas
+{
+float: left;
+width: 53%;
+height: 550px;
+/*background-color: yellow;*/
+
+
+}
+
+.loc
+{
+color: white;
+width: 23%;
+height: 550px;
+float: left;
+font-family: 'Molengo', sans-serif;
+font-size: 1.1em;
+/*padding: 0 0 0 50px;*/
+/*background-color: blue;*/
+}
+
+.contact
+{
+width: 23%;
+height: 550px;
+float: left;
+color: white;
+font-family: 'Molengo', sans-serif;
+font-size: 1.1em;
+/*background-color: green;*/
+padding: 0 0 0 12px;
+}
+
+.clear
+{
+clear: both;
+}
+
+
+
+
+/* Aaron's edit*/
+/*Catalogue section*/
+.cat
+{
+
+color: white;
+width: 80%;
+height: 500px;
+float: left;
+font-family: 'Molengo', sans-serif;
+font-size: 1.2em;
+padding: 0 50px 0 50px;
+overflow-y: scroll ;
+
+
+}
+#canvas
+{
+width: 960px;
+height: 500px;
+}
+/* below gets rid of the nasty scroll bar on the catalogue page, without it there is a scroll bar in the middle of the page. 
+It also gets rid of the main page scroll bar ...... */
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+ul
+{
+list-style-type: none;
+}
+
+.cat_img
+{
+ border-radius: 30px;
+ -moz-border-radius: 30px;
+ -khtml-border-radius: 30px;
+ -webkit-border-radius: 30px;
+ width: 300px;
+ height: 200px;
+			}
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	font-style:normal;
+	height:20px;
+	line-height:20px;
+	width:20px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #287ace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

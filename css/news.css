@@ -1,0 +1,29 @@
+
+    #giving-block{width:978px;height:280px;padding:0;margin:0 auto;overflow: hidden;position: relative;}
+    #giving-block h3 {color:#000;font:bold 34px/36px proxima-nova;text-align: center;margin:0;letter-spacing:0.04em;display:block;width:978px;height:46px;border-bottom:1px solid #bdbdbd;margin:0;}
+    #giving-block p {color:#000;font:18px/24px proxima-nova;text-align: center;margin:30px 0 20px 4px;letter-spacing:0.04em;width:500px;}
+    #giving-block span.sub-title {background:url(http://images.toms.com/media/content/images/home/Desktop/home-giving-block-subtitle.png) no-repeat transparent;width:391px;height:26px;margin:0 0 0 62px;display:block;}
+    #giving-block span.sub-title:hover {background:url(http://images.toms.com/media/content/images/home/Desktop/home-giving-block-subtitle-hover.png) no-repeat transparent;width:391px;height:26px;margin:0 0 0 62px;display:block;}
+    #giving-block span.sub-img {width:344px;height:165px;display:block;float:right;margin:-126px 74px 0 0;}
+    #giving-block span.sub-img img {width:344px;height:165px;}
+    #giving-block-link {display: block;width:978px;height:280px;margin:50px auto 0}
+    #giving-block-link:hover{text-decoration:none;}
+    #giving-block-social {background:url(http://images.toms.com/media/content/images/home/Desktop/home-giving-block-social.jpg) no-repeat transparent;width:979px;height:388px;display:block;clear:both;margin:0 auto 40px;}
+    .giving-block-content {float:left;margin:110px 0 0 142px;height:158px;width:334px;border-right:1px solid #adadad;text-align:center;}
+    .giving-block-content h3 {color:#000;font:bold 20px/22px proxima-nova;margin:16px 0 16px;}
+    .giving-block-content p {font:18px/22px proxima-nova;letter-spacing:0.04em;margin:0 auto;width:280px;}
+    .giving-block-icons {float:left;margin:128px 0 0 0;text-align:center;width:372px;}
+    .giving-block-icons h4 {font:bold 16px/18px proxima-nova;color:#a3a19d;margin:0 0 20px 0;}
+    .giving-block-social-share {display:block;clear:both;margin:16px 0 0 44px;}
+    .giving-block-social-share a {background:url(http://images.toms.com/media/content/images/home/Desktop/social-icons-sprite.png) no-repeat transparent;display:block;width:48px;height:48px;float:left;margin:0 10px 0 0;}
+    .giving-block-social-share .fb {background-position:0 0;}
+    .giving-block-social-share .fb:hover {background-position:0 -48px;}
+    .giving-block-social-share .tw {background-position:-58px 0;}
+    .giving-block-social-share .tw:hover {background-position:-58px -48px;}
+    .giving-block-social-share .yt {background-position:-118px 0;}
+    .giving-block-social-share .yt:hover {background-position:-118px -48px;}
+    .giving-block-social-share .pi {background-position:-177px 0;}
+    .giving-block-social-share .pi:hover {background-position:-177px -48px;}
+    .giving-block-social-share .gp {background-position:-236px 0;}
+    .giving-block-social-share .gp:hover {background-position:-236px -48px;}
+
